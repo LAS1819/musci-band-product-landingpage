@@ -5,7 +5,7 @@
 ## User Stories
 
 - [x] **User Story 1:** My product landing page should have a _header_ element with a corresponding _id="header"._
-- [ ] **User Story 2:** I can see an image within the _header_ element with a corresponding _id="header-img"_. A company logo would make a good image here.
+- [x] **User Story 2:** I can see an image within the _header_ element with a corresponding _id="header-img"_. A company logo would make a good image here.
 - [X] **User Story 3:** Within the _#header_ element I can see a _nav_ element with a corresponding _id="nav-bar"_.
 - [X] **User Story 4:** I can see at least three clickable elements inside the _nav_ element, each with the class _nav-link_.
 - [ ] **User Story 5:** When I click a _.nav-link_ button in the _nav_ element, I am taken to the corresponding section of the landing page.
