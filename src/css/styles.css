@@ -33,6 +33,16 @@ section .section-title {
 	background: #080808;
 }
 
+.btn-black {
+	color: #fff;
+	border-color: #fff;
+}
+
+.btn-black:hover {
+	color: #fff;
+	border-color: gray;
+}
+
 
 
 
