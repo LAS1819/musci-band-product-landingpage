@@ -23,15 +23,16 @@
 
 
 	<header id="header">
+		<img class="img-fluid" width="150" src="img/logo_plp_inv.png" alt="Enterprise logo">
 		<nav id="nav-bar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
-			<a class="navbar-brand" href="/"><img class="img-fluid" width="150" id="header-img" src="img/logo_plp_inv.png" alt="Enterprise logo"></a>
+			<img class="img-fluid navbar-brand" width="150" id="header-img" src="img/logo_plp_inv.png" alt="Enterprise logo">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
 				<ul class="navbar-nav justify-content-around w-100">
 					<li class="nav-item">
-						<a class="nav-link" href="#music">Music</a>
+						<a class="nav-link" href="#header">Music</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#videos">Videos</a>
@@ -52,21 +53,33 @@
 			</div>
 		</nav>
 		<div>
-			<img src="img/header_img.jpg" alt="Band image">
+			<img class="img-fluid" src="img/header_img.jpg" alt="Band image">
 		</div>
 	</header>		
 	<main>
 		<section id="last">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-7">
+					<div class="col-md-6">
 						<img class="album-last img-fluid" src="img/last_album.jpg">
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-6 album-list">
 						<h2 class="album-title">Our Last Album</h2>
-						<ul class="list-group list-group-horizontal">
-							<li class="list-group-item list-group-item-heading">OUT NOW</li>
-							<li class="list-group-item list-item-social"><i class="fas fa-music"></i></li>
+						<ul class="list-group list-group-horizontal album-links display-4">
+							<li class="list-group-item list-group-item-heading bg-transparent album-links-title"><h3>OUT NOW</h3></li>
+							<li class="list-group-item list-item-social bg-transparent"><a href="#"><i class="fas fa-music"></i></a></li>
+							<li class="list-group-item list-item-social bg-transparent"><a href="#"><i class="fab fa-spotify"></i></a></li>
+							<li class="list-group-item list-item-social bg-transparent"><a href="#"><i class="fab fa-youtube"></i></a></li>
+							<li class="list-group-item list-item-social bg-transparent"><a href="#"><i class="fab fa-bandcamp"></i></a></li>
+						</ul>
+						<ul class="list-group album-list-songs">
+							<li class="list-group-item bg-transparent">1. "First Song"</li>
+							<li class="list-group-item bg-transparent">2. "Second Song"</li>
+							<li class="list-group-item bg-transparent">3. "Third Song"</li>
+							<li class="list-group-item bg-transparent">4. "Fourth Song"</li>
+							<li class="list-group-item bg-transparent">5. "Fifth Song"</li>
+							<li class="list-group-item bg-transparent">6. "Sixth Song"</li>
+							<li class="list-group-item bg-transparent">7. "Seventh Song"</li>
 						</ul>
 					</div>
 				</div>

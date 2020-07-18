@@ -28,6 +28,16 @@ section {
 	background: #080808;
 }
 
+.album-list .album-list-songs .list-group-item {
+	font-size: 1.500rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.album-list .album-links a {
+	color: white;
+}
+
 .album-title {
 	font-size: 3.250rem;
 	font-weight: 700;
