@@ -20,7 +20,8 @@ main {
 }
 
 section {
-	padding-top: 50px;
+	/*padding-top: 50px;*/
+	padding: 50px 0;
 }
 
 section .section-title {
@@ -67,7 +68,13 @@ section .section-title {
 
 /*SHOP STYLE*/
 
+/*VIDEOS STYLE*/
+#videos {
+	background: url(https://i.imgur.com/b9r5sEL.jpg) no-repeat center center/cover;
+	background-size: cover;
 
+	margin-top: 50px;
+}
 
 
 
