@@ -1,0 +1,177 @@
+/* Navigation bar */
+
+body {
+	background: black;
+	margin: 0;
+}
+
+* {
+	margin: 0;
+}
+
+.nav-item a {
+	font-size: 1.250rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+main {
+	color: #ededed;
+}
+
+section {
+	/*padding-top: 50px;*/
+	padding: 50px 0;
+}
+
+section .section-title {
+	/*font-size: 1.500rem;*/
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.bg-black {
+	background: #080808;
+}
+
+.btn-black {
+	color: #fff;
+	border-color: #fff;
+}
+
+.btn-black:hover {
+	color: #fff;
+	border-color: gray;
+}
+
+
+
+
+/*ALBUM STYLE*/
+
+.album-list .album-list-songs .list-group-item {
+	font-size: 1.500rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.album-list .album-links a {
+	color: white;
+	font-size: 1.500rem;
+}
+
+.album-title {
+	font-size: 3.250rem;
+	font-weight: 700;
+}
+
+
+/*SHOP STYLE*/
+
+/*VIDEOS STYLE*/
+#videos {
+	background: url(https://i.imgur.com/b9r5sEL.jpg) no-repeat center center/cover;
+	background-size: cover;
+
+	margin-top: 50px;
+}
+
+/* DISCOGRAFY STYLE */
+
+.img-container {
+	position: relative;
+	width: 100%;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0 auto;
+	opacity: 0;
+	transition: .3s ease;
+	/*background-color: gray; */
+}
+
+.img-container:hover img {
+	filter: blur(4px);
+	transition: .3s ease;
+}
+
+.img-container:hover .overlay {
+	opacity: 1;
+}
+
+.btn-listen {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*TOUR STYLES*/
+
+@media and screen(max-width: 378px) {
+	table {
+		font-size: 1rem;
+	}
+}
+
+
+
+
+
+
+/*
+a {
+	text-decoration: none;
+	color: #e5dddd;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed; /* Set the navbar to fixed position */
+	/*top: 0;  // Position the navbar at the top of the page*/
+	/*width: 100%;
+}*/
+/*
+.navbar .navbar-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.125rem;
+	font-weight: 700;
+	letter-spacing: .2em;
+	line-height: 1;
+	text-indent: .1rem;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-links a {
+	margin-bottom: 5px;
+	padding: 0 15px;
+	display: block;
+	padding: 14px 16px;
+
+}
+
+.navbar .navbar-logo {
+	padding: 12px;
+	display: flex;
+	justify-content: center;
+}
+
+#header-img {
+	width: 100%;
+	height: 100%;
+	max-width: 200px;
+	position: relative;
+	top: 15px;
+	padding: 0;
+}*/
